@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jorge Jesus Farfan Ramos · Desarrollador web junior</title>
+<meta name="description" content="Bachiller en Ingeniería de Sistemas con pasión por la tecnología y el desarrollo de soluciones digitales. Combino conocimientos de programación, desar">
+<meta property="og:title" content="Jorge Jesus Farfan Ramos · Desarrollador web junior">
+<meta property="og:description" content="Bachiller en Ingeniería de Sistemas con pasión por la tecnología y el desarrollo de soluciones digitales. Combino conocimientos de programación, desar">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@700;800&family=Instrument+Sans:wght@400;600&display=swap">
+<style>
+:root{--bg:#f7f8fb;--surface:#fff;--ink:#141a2e;--muted:#5a6178;--line:#dfe3ec;--accent:#2f4ee0;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1222;--surface:#161b2e;--ink:#e8eaf3;--muted:#9ca3ba;--line:#2a3150;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Instrument Sans",system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Schibsted Grotesk",system-ui,sans-serif;line-height:1.15;margin:0;text-wrap:balance}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.hero{padding:64px 0 40px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center}
+.avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);background:var(--line)}
+.rol{color:var(--accent);font-weight:600;margin:0}
+.hero h1{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:800;letter-spacing:-.02em;margin:4px 0 10px}
+.hero p.bio{font-size:1.1rem;color:var(--muted);max-width:60ch;margin:0 0 18px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+section h2{font-size:1.7rem;font-weight:800;margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.chips li{padding:6px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:.95rem}
+.chips li.dominado{border-color:var(--accent);color:var(--accent)}
+.chips li small{font-weight:400;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s}
+.card:hover{transform:translateY(-4px)}
+.frame{height:180px;overflow:hidden;background:#fff;border-bottom:1px solid var(--line)}
+.frame iframe{width:200%;height:360px;border:0;transform:scale(.5);transform-origin:0 0;pointer-events:none}
+.card-body{padding:16px;display:grid;gap:6px}
+.card-body p{margin:0;color:var(--muted);font-size:.95rem}
+.card-body .meta{font-size:.85rem}
+.links{display:flex;gap:14px}
+.progress{height:10px;background:var(--line);border-radius:99px;overflow:hidden;max-width:420px}
+.progress i{display:block;height:100%;background:var(--accent)}
+footer{padding:32px 0 48px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+@media (max-width:600px){.hero{grid-template-columns:1fr;padding-top:40px}.avatar{width:96px;height:96px}}
+@media (prefers-reduced-motion:reduce){.card{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <img class="avatar" src="https://avatars.githubusercontent.com/u/219567900?v=4" alt="Foto de Jorge Jesus Farfan Ramos" width="120" height="120">
+  <div>
+    <p class="rol">Desarrollador web junior · Chincha-Peru</p>
+    <h1>Hola, soy Jorge Jesus Farfan Ramos.</h1>
+    <p class="bio">Bachiller en Ingeniería de Sistemas con pasión por la tecnología y el desarrollo de soluciones digitales. Combino conocimientos de programación, desarrollo web, bases de datos y soporte de sistemas para transformar necesidades en soluciones prácticas y funcionales.  
+Soy autodidacta, proactivo y orientado a resultados, siempre buscando aprender, mejorar procesos y asumir nuevos retos dentro del mundo tecnológico.</p>
+    <div class="btns"><a class="btn" href="https://github.com/kenshi241011" target="_blank" rel="noopener">GitHub</a><a class="btn ghost" href="mailto:jorgefarfan716@gmail.com">Escríbeme</a></div>
+  </div>
+</header>
+<main>
+  <section aria-labelledby="h-skills">
+    <h2 id="h-skills">Habilidades</h2>
+    <p>Aprendiendo HTML y CSS desde cero.</p>
+    <p style="margin:18px 0 6px;color:var(--muted)">Progreso en mi formación web: <b>0%</b></p>
+    <div class="progress" role="img" aria-label="0% completado"><i style="width:0%"></i></div>
+  </section>
+  
+  <section aria-labelledby="h-repos"><h2 id="h-repos">En GitHub</h2><div class="grid"><article class="card repo"><div class="card-body">
+      <h3>monagillo</h3><p>apumonagillo</p>
+      <p class="meta">JavaScript · ★ 0</p>
+      <div class="links"><a href="https://github.com/kenshi241011/monagillo" target="_blank" rel="noopener">Código →</a></div>
+    </div></article><article class="card repo"><div class="card-body">
+      <h3>webtiktok</h3><p>Repositorio en GitHub.</p>
+      <p class="meta">PHP · ★ 0</p>
+      <div class="links"><a href="https://github.com/kenshi241011/webtiktok" target="_blank" rel="noopener">Código →</a></div>
+    </div></article><article class="card repo"><div class="card-body">
+      <h3>wase</h3><p>Repositorio en GitHub.</p>
+      <p class="meta">HTML · ★ 0</p>
+      <div class="links"><a href="https://github.com/kenshi241011/wase" target="_blank" rel="noopener">Código →</a></div>
+    </div></article><article class="card repo"><div class="card-body">
+      <h3>cv</h3><p>Repositorio en GitHub.</p>
+      <p class="meta">HTML · ★ 0</p>
+      <div class="links"><a href="https://github.com/kenshi241011/cv" target="_blank" rel="noopener">Código →</a></div>
+    </div></article><article class="card repo"><div class="card-body">
+      <h3>asistente-jenny-nueva</h3><p>Repositorio en GitHub.</p>
+      <p class="meta">JavaScript · ★ 0</p>
+      <div class="links"><a href="https://github.com/kenshi241011/asistente-jenny-nueva" target="_blank" rel="noopener">Código →</a></div>
+    </div></article></div></section>
+  <section aria-labelledby="h-contact">
+    <h2 id="h-contact">Contacto</h2>
+    <p>Escríbeme a <b>jorgefarfan716@gmail.com</b>. Estoy buscando mi primera oportunidad como desarrollador web.</p>
+  </section>
+</main>
+<footer>Hecho con HTML y CSS · Generado con Ruta Web Cero, creada por Kenshi.</footer>
+</div>
+</body>
+</html>

@@ -44,6 +44,12 @@ section h2{font-size:1.7rem;font-weight:800;margin-bottom:18px}
 .progress{height:10px;background:var(--line);border-radius:99px;overflow:hidden;max-width:420px}
 .progress i{display:block;height:100%;background:var(--accent)}
 footer{padding:32px 0 48px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+.estilo{font-size:1.05rem;max-width:65ch;margin:0 0 16px}
+.tal{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.tal li{display:flex;gap:12px;align-items:flex-start;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.tal li>span{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:10px;border:2px solid var(--accent);color:var(--accent);font-family:ui-monospace,monospace;font-weight:700;font-size:.85rem}
+.tal li.top>span{background:var(--accent);color:#fff}
+.tal small{color:var(--muted)}
 @media (max-width:600px){.hero{grid-template-columns:1fr;padding-top:40px}.avatar{width:96px;height:96px}}
 @media (prefers-reduced-motion:reduce){.card{transition:none}}
 </style>
@@ -66,6 +72,12 @@ Soy autodidacta, proactivo y orientado a resultados, siempre buscando aprender, 
     <p>Aprendiendo HTML y CSS desde cero.</p>
     <p style="margin:18px 0 6px;color:var(--muted)">Progreso en mi formación web: <b>0%</b></p>
     <div class="progress" role="img" aria-label="0% completado"><i style="width:0%"></i></div>
+    <p style="margin:12px 0 0;color:var(--muted)">Ejercicios de práctica resueltos: <b>1</b> · nivel 2</p>
+  </section>
+  <section aria-labelledby="h-tal">
+    <h2 id="h-tal">Talentos</h2>
+    
+    <ul class="tal"><li class=""><span aria-hidden="true">⌂</span><div><b>Constructor</b><br><small>0 proyectos guardados y portafolio publicado</small></div></li></ul>
   </section>
   
   <section aria-labelledby="h-repos"><h2 id="h-repos">En GitHub</h2><div class="grid"><article class="card repo"><div class="card-body">
